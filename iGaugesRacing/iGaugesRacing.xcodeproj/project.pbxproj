@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944F164A13EE23BD0013A971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164913EE23BD0013A971 /* UIKit.framework */; };
+		944F164C13EE23BD0013A971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164B13EE23BD0013A971 /* Foundation.framework */; };
+		944F164E13EE23BD0013A971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164D13EE23BD0013A971 /* CoreGraphics.framework */; };
+		944F165413EE23BD0013A971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 944F165213EE23BD0013A971 /* InfoPlist.strings */; };
+		944F165713EE23BD0013A971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944F165613EE23BD0013A971 /* main.m */; };
+		944F165A13EE23BD0013A971 /* iGaugesRacingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944F165913EE23BD0013A971 /* iGaugesRacingAppDelegate.m */; };
+		944F165D13EE23BD0013A971 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944F165B13EE23BD0013A971 /* MainWindow.xib */; };
+		944F166013EE23BD0013A971 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944F165F13EE23BD0013A971 /* FirstViewController.m */; };
+		944F166313EE23BE0013A971 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944F166213EE23BE0013A971 /* SecondViewController.m */; };
+		944F166613EE23BE0013A971 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944F166413EE23BE0013A971 /* FirstView.xib */; };
+		944F166913EE23BE0013A971 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944F166713EE23BE0013A971 /* SecondView.xib */; };
+		944F167013EE23BE0013A971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164913EE23BD0013A971 /* UIKit.framework */; };
+		944F167113EE23BE0013A971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164B13EE23BD0013A971 /* Foundation.framework */; };
+		944F167213EE23BE0013A971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944F164D13EE23BD0013A971 /* CoreGraphics.framework */; };
+		944F167A13EE23BE0013A971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 944F167813EE23BE0013A971 /* InfoPlist.strings */; };
+		944F167D13EE23BE0013A971 /* iGaugesRacingTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 944F167C13EE23BE0013A971 /* iGaugesRacingTests.h */; };
+		944F167F13EE23BE0013A971 /* iGaugesRacingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944F167E13EE23BE0013A971 /* iGaugesRacingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944F167313EE23BE0013A971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944F163C13EE23BD0013A971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944F164413EE23BD0013A971;
+			remoteInfo = iGaugesRacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944F164513EE23BD0013A971 /* iGaugesRacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGaugesRacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		944F164913EE23BD0013A971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		944F164B13EE23BD0013A971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		944F164D13EE23BD0013A971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		944F165113EE23BD0013A971 /* iGaugesRacing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGaugesRacing-Info.plist"; sourceTree = "<group>"; };
+		944F165313EE23BD0013A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		944F165513EE23BD0013A971 /* iGaugesRacing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGaugesRacing-Prefix.pch"; sourceTree = "<group>"; };
+		944F165613EE23BD0013A971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944F165813EE23BD0013A971 /* iGaugesRacingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iGaugesRacingAppDelegate.h; sourceTree = "<group>"; };
+		944F165913EE23BD0013A971 /* iGaugesRacingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGaugesRacingAppDelegate.m; sourceTree = "<group>"; };
+		944F165C13EE23BD0013A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		944F165E13EE23BD0013A971 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		944F165F13EE23BD0013A971 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		944F166113EE23BD0013A971 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		944F166213EE23BE0013A971 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		944F166513EE23BE0013A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		944F166813EE23BE0013A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		944F166F13EE23BE0013A971 /* iGaugesRacingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGaugesRacingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		944F167713EE23BE0013A971 /* iGaugesRacingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGaugesRacingTests-Info.plist"; sourceTree = "<group>"; };
+		944F167913EE23BE0013A971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		944F167B13EE23BE0013A971 /* iGaugesRacingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGaugesRacingTests-Prefix.pch"; sourceTree = "<group>"; };
+		944F167C13EE23BE0013A971 /* iGaugesRacingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iGaugesRacingTests.h; sourceTree = "<group>"; };
+		944F167E13EE23BE0013A971 /* iGaugesRacingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGaugesRacingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944F164213EE23BD0013A971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F164A13EE23BD0013A971 /* UIKit.framework in Frameworks */,
+				944F164C13EE23BD0013A971 /* Foundation.framework in Frameworks */,
+				944F164E13EE23BD0013A971 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944F166B13EE23BE0013A971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F167013EE23BE0013A971 /* UIKit.framework in Frameworks */,
+				944F167113EE23BE0013A971 /* Foundation.framework in Frameworks */,
+				944F167213EE23BE0013A971 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944F163A13EE23BD0013A971 = {
+			isa = PBXGroup;
+			children = (
+				944F164F13EE23BD0013A971 /* iGaugesRacing */,
+				944F167513EE23BE0013A971 /* iGaugesRacingTests */,
+				944F164813EE23BD0013A971 /* Frameworks */,
+				944F164613EE23BD0013A971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944F164613EE23BD0013A971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944F164513EE23BD0013A971 /* iGaugesRacing.app */,
+				944F166F13EE23BE0013A971 /* iGaugesRacingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944F164813EE23BD0013A971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944F164913EE23BD0013A971 /* UIKit.framework */,
+				944F164B13EE23BD0013A971 /* Foundation.framework */,
+				944F164D13EE23BD0013A971 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944F164F13EE23BD0013A971 /* iGaugesRacing */ = {
+			isa = PBXGroup;
+			children = (
+				944F165813EE23BD0013A971 /* iGaugesRacingAppDelegate.h */,
+				944F165913EE23BD0013A971 /* iGaugesRacingAppDelegate.m */,
+				944F165B13EE23BD0013A971 /* MainWindow.xib */,
+				944F165E13EE23BD0013A971 /* FirstViewController.h */,
+				944F165F13EE23BD0013A971 /* FirstViewController.m */,
+				944F166113EE23BD0013A971 /* SecondViewController.h */,
+				944F166213EE23BE0013A971 /* SecondViewController.m */,
+				944F166413EE23BE0013A971 /* FirstView.xib */,
+				944F166713EE23BE0013A971 /* SecondView.xib */,
+				944F165013EE23BD0013A971 /* Supporting Files */,
+			);
+			path = iGaugesRacing;
+			sourceTree = "<group>";
+		};
+		944F165013EE23BD0013A971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944F165113EE23BD0013A971 /* iGaugesRacing-Info.plist */,
+				944F165213EE23BD0013A971 /* InfoPlist.strings */,
+				944F165513EE23BD0013A971 /* iGaugesRacing-Prefix.pch */,
+				944F165613EE23BD0013A971 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		944F167513EE23BE0013A971 /* iGaugesRacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				944F167C13EE23BE0013A971 /* iGaugesRacingTests.h */,
+				944F167E13EE23BE0013A971 /* iGaugesRacingTests.m */,
+				944F167613EE23BE0013A971 /* Supporting Files */,
+			);
+			path = iGaugesRacingTests;
+			sourceTree = "<group>";
+		};
+		944F167613EE23BE0013A971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944F167713EE23BE0013A971 /* iGaugesRacingTests-Info.plist */,
+				944F167813EE23BE0013A971 /* InfoPlist.strings */,
+				944F167B13EE23BE0013A971 /* iGaugesRacingTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944F164413EE23BD0013A971 /* iGaugesRacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944F168213EE23BE0013A971 /* Build configuration list for PBXNativeTarget "iGaugesRacing" */;
+			buildPhases = (
+				944F164113EE23BD0013A971 /* Sources */,
+				944F164213EE23BD0013A971 /* Frameworks */,
+				944F164313EE23BD0013A971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGaugesRacing;
+			productName = iGaugesRacing;
+			productReference = 944F164513EE23BD0013A971 /* iGaugesRacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944F166E13EE23BE0013A971 /* iGaugesRacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944F168513EE23BE0013A971 /* Build configuration list for PBXNativeTarget "iGaugesRacingTests" */;
+			buildPhases = (
+				944F166A13EE23BE0013A971 /* Sources */,
+				944F166B13EE23BE0013A971 /* Frameworks */,
+				944F166C13EE23BE0013A971 /* Resources */,
+				944F166D13EE23BE0013A971 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944F167413EE23BE0013A971 /* PBXTargetDependency */,
+			);
+			name = iGaugesRacingTests;
+			productName = iGaugesRacingTests;
+			productReference = 944F166F13EE23BE0013A971 /* iGaugesRacingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944F163C13EE23BD0013A971 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 944F163F13EE23BD0013A971 /* Build configuration list for PBXProject "iGaugesRacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 944F163A13EE23BD0013A971;
+			productRefGroup = 944F164613EE23BD0013A971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944F164413EE23BD0013A971 /* iGaugesRacing */,
+				944F166E13EE23BE0013A971 /* iGaugesRacingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944F164313EE23BD0013A971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F165413EE23BD0013A971 /* InfoPlist.strings in Resources */,
+				944F165D13EE23BD0013A971 /* MainWindow.xib in Resources */,
+				944F166613EE23BE0013A971 /* FirstView.xib in Resources */,
+				944F166913EE23BE0013A971 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944F166C13EE23BE0013A971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F167A13EE23BE0013A971 /* InfoPlist.strings in Resources */,
+				944F167D13EE23BE0013A971 /* iGaugesRacingTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		944F166D13EE23BE0013A971 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944F164113EE23BD0013A971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F165713EE23BD0013A971 /* main.m in Sources */,
+				944F165A13EE23BD0013A971 /* iGaugesRacingAppDelegate.m in Sources */,
+				944F166013EE23BD0013A971 /* FirstViewController.m in Sources */,
+				944F166313EE23BE0013A971 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944F166A13EE23BE0013A971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944F167F13EE23BE0013A971 /* iGaugesRacingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944F167413EE23BE0013A971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944F164413EE23BD0013A971 /* iGaugesRacing */;
+			targetProxy = 944F167313EE23BE0013A971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944F165213EE23BD0013A971 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944F165313EE23BD0013A971 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		944F165B13EE23BD0013A971 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944F165C13EE23BD0013A971 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		944F166413EE23BE0013A971 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944F166513EE23BE0013A971 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		944F166713EE23BE0013A971 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944F166813EE23BE0013A971 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		944F167813EE23BE0013A971 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944F167913EE23BE0013A971 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944F168013EE23BE0013A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		944F168113EE23BE0013A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		944F168313EE23BE0013A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGaugesRacing/iGaugesRacing-Prefix.pch";
+				INFOPLIST_FILE = "iGaugesRacing/iGaugesRacing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		944F168413EE23BE0013A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGaugesRacing/iGaugesRacing-Prefix.pch";
+				INFOPLIST_FILE = "iGaugesRacing/iGaugesRacing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		944F168613EE23BE0013A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iGaugesRacing.app/iGaugesRacing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGaugesRacingTests/iGaugesRacingTests-Prefix.pch";
+				INFOPLIST_FILE = "iGaugesRacingTests/iGaugesRacingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		944F168713EE23BE0013A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iGaugesRacing.app/iGaugesRacing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGaugesRacingTests/iGaugesRacingTests-Prefix.pch";
+				INFOPLIST_FILE = "iGaugesRacingTests/iGaugesRacingTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944F163F13EE23BD0013A971 /* Build configuration list for PBXProject "iGaugesRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944F168013EE23BE0013A971 /* Debug */,
+				944F168113EE23BE0013A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944F168213EE23BE0013A971 /* Build configuration list for PBXNativeTarget "iGaugesRacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944F168313EE23BE0013A971 /* Debug */,
+				944F168413EE23BE0013A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		944F168513EE23BE0013A971 /* Build configuration list for PBXNativeTarget "iGaugesRacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944F168613EE23BE0013A971 /* Debug */,
+				944F168713EE23BE0013A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944F163C13EE23BD0013A971 /* Project object */;
+}

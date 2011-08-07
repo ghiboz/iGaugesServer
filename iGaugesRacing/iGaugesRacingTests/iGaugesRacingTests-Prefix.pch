@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iGaugesRacingTests' target in the 'iGaugesRacingTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
