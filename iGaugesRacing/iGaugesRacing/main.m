@@ -5,6 +5,7 @@
 //  Created by Paolo Ghibaudo on 07/08/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
+//  2011.11.18 - GA - Commento
 
 #import <UIKit/UIKit.h>
 
